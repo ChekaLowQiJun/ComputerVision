@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['Hitsuji-Ram-', 'I-Boar-', 'Inu-Dog-', 'Mi-Snake-', 'Ne-Rat-', 'Saru-Monkey-', 'Tatsu-Dragon-', 'Tora-Tiger-', 'Tori-Bird-', 'U-Hare-', 'Uma-Horse-', 'Ushi-Ox-']
+
+roboflow:
+  workspace: cheka-low-yel2d
+  project: naruto_handsigns
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cheka-low-yel2d/naruto_handsigns/dataset/4
